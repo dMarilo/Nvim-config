@@ -13,7 +13,7 @@ return {
       auto_install = true,
 
       -- Ensure these parsers are always installed
-      ensure_installed = {"lua", "javascript", "c_sharp"},
+      ensure_installed = {"lua", "javascript", "c_sharp", "c" },
 
       -- Enable syntax highlighting based on Treesitter parsing
       highlight = { enable = true },
